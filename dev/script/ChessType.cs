@@ -160,7 +160,7 @@ public class JIANG : ChessType
     {
         if (InLegalArea(tarCoord))
         {
-            if (Math.Abs(tarCoord.row - tarCoord.row) +
+            if (Math.Abs(tarCoord.row - coord.row) +
                 Math.Abs(tarCoord.col - coord.col) == 1)
             {
                 if (isRed)
